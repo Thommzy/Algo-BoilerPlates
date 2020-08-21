@@ -47,5 +47,4 @@ Get Index of a String
 var str = "hello Timothy"
 let index = str.index(str.startIndex, offsetBy: str.count - 1)
 str[index]
-
 */
