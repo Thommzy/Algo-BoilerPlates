@@ -40,4 +40,12 @@ maskify("567837337377373737")
 //#######5616
 //#######5616
 
+
+-----------------
+Get Index of a String
+
+var str = "hello Timothy"
+let index = str.index(str.startIndex, offsetBy: str.count - 1)
+str[index]
+
 */
