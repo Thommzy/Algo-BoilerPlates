@@ -48,4 +48,13 @@ var str = "hello Timothy"
 let index = str.index(str.startIndex, offsetBy: str.count - 1)
 ..
 str[index]
+
+
+
+-------------------------------------------------------------------
+
+//How to get repeated character in swift
+var bb = String(repeating: "a", count: 5)
+
+----------------------------------------------------------------------
 */
