@@ -52,9 +52,7 @@ str[index]
 
 
 -------------------------------------------------------------------
-
-//How to get repeated character in swift
-var bb = String(repeating: "a", count: 5)
-
+//HOW TO GET REPEATED STRING USING SWIFT
+var bb = String(repeating: "KK", count: 5)
 ----------------------------------------------------------------------
 */
