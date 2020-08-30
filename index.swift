@@ -53,6 +53,6 @@ str[index]
 
 -------------------------------------------------------------------
 //HOW TO GET REPEATED STRING USING SWIFT
-var bb = String(repeating: "KK", count: 6)
+var bb = String(repeating: "KK", count: 3)
 ----------------------------------------------------------------------
 */
