@@ -55,4 +55,8 @@ str[index]
 //HOW TO GET REPEATED STRING USING SWIFT
 var bb = String(repeating: "KK", count: 3)
 ----------------------------------------------------------------------
+
+How to sort a dictionary by value
+let sortedDict = dict.sorted { $0.0 < $1.0 }
+return sortedDict.map({$0.value}).joined()
 */
