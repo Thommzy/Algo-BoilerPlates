@@ -59,4 +59,7 @@ var bb = String(repeating: "KK", count: 3)
 How to sort a dictionary by value
 let sortedDict = dict.sorted { $0.0 < $1.0 }
 return sortedDict.map({$0.value}).joined()
+-----------------------------------------------------
+How to Filter in swift
+let filter1 = plate1.filter {"0OQ1IT2Z5S8B".contains($0)}
 */
