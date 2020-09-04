@@ -62,4 +62,12 @@ return sortedDict.map({$0.value}).joined()
 -----------------------------------------------------
 How to Filter in swift
 let filter1 = plate1.filter {"0OQ1IT2Z5S8B".contains($0)}
+------------------------------------------------------------
+Sorted Tuples
+if the value is equals to the next value make the key in ascending order else make the value in
+acending order
+let sortedTuples = binaryForInteger.sorted{$0.1 == $1.1 ? $0.0 < $1.0 : $0.1 < $1.1 }
+print(sortedTuples)
+$0 is a shorthand name for first argument passed to closure. In this case, as you're mapping a Dictionary, 
+that argument is a tuple - hence $0.0 is a key, and $0.1 is a value while $1.0 is the next key, and $1.1 is the next Value
 */
