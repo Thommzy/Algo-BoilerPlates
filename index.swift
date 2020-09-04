@@ -59,10 +59,10 @@ var bb = String(repeating: "KK", count: 3)
 How to sort a dictionary by value
 let sortedDict = dict.sorted { $0.0 < $1.0 }
 return sortedDict.map({$0.value}).joined()
------------------------------------------------------
+--------------------------------------------------------------------
 How to Filter in swift
 let filter1 = plate1.filter {"0OQ1IT2Z5S8B".contains($0)}
-------------------------------------------------------------
+---------------------------------------------------------------------
 Sorted Tuples
 if the value is equals to the next value make the key in ascending order else make the value in
 acending order
@@ -83,7 +83,7 @@ TO GET THE SUM OF DIGITS OF A NUMBER.
         return sum
     }
 
-    -------------------------
+--------------------------------------------------------------------
     Convert num to binary
     func getBinary(_ num: Int) -> Int {
     let str = String(num, radix: 2)
@@ -92,4 +92,18 @@ TO GET THE SUM OF DIGITS OF A NUMBER.
     }
     return 0
 }
+---------------------------------------------------------------------
+/*
+Sum two Numbers without using addittion and subtraction
+func getSum(_ a: Int, _ b: Int) -> Int {
+    if b == 0{
+      return a;
+    }else if a == 0 {
+        return b
+    } else {
+       return getSum( a ^ b, (a & b) << 1);
+    }
+}
+*/
+
 */
