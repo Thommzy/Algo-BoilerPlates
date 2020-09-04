@@ -70,4 +70,16 @@ let sortedTuples = binaryForInteger.sorted{$0.1 == $1.1 ? $0.0 < $1.0 : $0.1 < $
 print(sortedTuples)
 $0 is a shorthand name for first argument passed to closure. In this case, as you're mapping a Dictionary, 
 that argument is a tuple - hence $0.0 is a key, and $0.1 is a value while $1.0 is the next key, and $1.1 is the next Value
+
+--------------------------------------------------------------
+TO GET THE SUM OF DIGITS OF A NUMBER.
+ func digitSum(_ n : Int) -> Int {
+        var n = n
+        var sum = 0
+        while n > 0 {
+            sum += n % 10 // Add least significant digit ...
+            n /= 10   // ... and remove it from the number.
+        }
+        return sum
+    }
 */
