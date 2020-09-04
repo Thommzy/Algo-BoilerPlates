@@ -82,4 +82,14 @@ TO GET THE SUM OF DIGITS OF A NUMBER.
         }
         return sum
     }
+
+    -------------------------
+    Convert num to binary
+    func getBinary(_ num: Int) -> Int {
+    let str = String(num, radix: 2)
+    if let finalInt = Int(str) {
+         return finalInt
+    }
+    return 0
+}
 */
