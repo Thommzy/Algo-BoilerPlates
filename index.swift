@@ -104,7 +104,24 @@ func getSum(_ a: Int, _ b: Int) -> Int {
        return getSum( a ^ b, (a & b) << 1);
     }
 }
-//
+
+//Convert camelCase to snake_case
+
+func camelToSnake(_ str: String) -> String {
+    var emptyString = ""
+    for camel in str {
+        if camel.isUppercase {
+            emptyString += "_\(camel.lowercased())"
+        }else {
+            emptyString += String(camel)
+        }
+    }
+    let final = emptyString.dropFirst()
+    return String(final)
+}
+camelToSnake("TestController")
+camelToSnake("MoviesAndBooks")
+
 */
 
 */
