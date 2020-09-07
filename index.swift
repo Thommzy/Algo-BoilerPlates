@@ -108,7 +108,7 @@ func getSum(_ a: Int, _ b: Int) -> Int {
 //Convert camelCase to snake_case
 
 func camelToSnake(_ str: String) -> String {
-    var emptyString = ""
+    var emptyString = " "
     for camel in str {
         if camel.isUppercase {
             emptyString += "_\(camel.lowercased())"
