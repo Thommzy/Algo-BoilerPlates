@@ -61,7 +61,8 @@ let sortedDict = dict.sorted { $0.0 < $1.0 }
 return sortedDict.map({$0.value}).joined()
 --------------------------------------------------------------------
 How to Filter in swift
-let filter1 = plate1.filter {"0OQ1IT2Z5S8B".contains($0)}
+let filter1 = plate1.filter {"0OQ1IT2Z5S8B".contains($0)
+let filter2 = plate1.filter {"0OQ1IT2Z5S8B".contains($0)}
 ---------------------------------------------------------------------
 Sorted Tuples
 if the value is equals to the next value make the key in ascending order else make the value in
