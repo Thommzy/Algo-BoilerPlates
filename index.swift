@@ -166,4 +166,10 @@ func getFactorial(_ num: Int) -> [Int] {
     return newArray.sorted()
 }
 */
+
+/*
+TRIM A STRING
+let str = "  Taylor Swift  "
+let trimmed = str.trimmingCharacters(in: .whitespacesAndNewlines)
+*/
 */
