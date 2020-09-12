@@ -172,4 +172,28 @@ TRIM A STRING
 let str = "  Taylor Swift  "
 let trimmed = str.trimmingCharacters(in: .whitespacesAndNewlines)
 */
+
+/*
+STRING CHUNKED
+func SplitString(stringToBeSplitted:String, By:Int) -> [String]
+{
+    var newArray = [String]()
+    var newStr = String()
+    for char in stringToBeSplitted
+    {
+        newStr += String(char)
+        if newStr.count == By
+        {
+            newArray.append(newStr)
+            newStr = ""
+        }
+
+    }
+    return newArray
+}
+
+SplitString(stringToBeSplitted: "22wwwwww", By: 2)
 */
+
+*/
+
