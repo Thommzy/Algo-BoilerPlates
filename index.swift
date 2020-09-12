@@ -145,4 +145,25 @@ CHECK IF A NUMBER IS A PRIME NUMBER
         return true
     }
 */
+
+/*
+func getFactorial(_ num: Int) -> [Int] {
+    var newArray = [Int]()
+    var holdNum = num
+    while holdNum >= 2 {
+        let m = holdNum
+        var holdTwo = 2
+        while holdNum >= 2{
+            if holdNum % holdTwo == 0 {
+                newArray.append(holdTwo)
+                holdNum = holdNum / holdTwo
+            } else {
+                holdTwo = holdTwo + 1
+            }
+        }
+        holdNum = m - 1
+    }
+    return newArray.sorted()
+}
+*/
 */
