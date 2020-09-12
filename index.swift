@@ -195,5 +195,25 @@ func SplitString(stringToBeSplitted:String, By:Int) -> [String]
 SplitString(stringToBeSplitted: "22wwwwww", By: 2)
 */
 
+/*
+CHUNK ARRAY OF IN SWIFT
+
+func chunked(_ size: Int, _ arr: [Int]) -> [[Int]] {
+    let chunks = stride(from: 0, to: arr.count, by: size).map {
+        Array(arr[$0 ..< Swift.min($0 + size, arr.count)])
+    }
+    var chunksOfArray : [[Int]] = []
+    for chunk in chunks {
+        var holdChunk = chunk
+        while holdChunk.count < chunks[0].count {
+            holdChunk.append(0)
+        }
+        print(holdChunk)
+        chunksOfArray.append(holdChunk)
+    }
+    return chunksOfArray
+}
+*/
+
 */
 
