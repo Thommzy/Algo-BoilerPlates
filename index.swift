@@ -215,5 +215,26 @@ func chunked(_ size: Int, _ arr: [Int]) -> [[Int]] {
 }
 */
 
+/*
+CONVERT DATE TO DAY
+var dateArray = ["2020-09-16", "2020-09-17", "2020-09-18", "2020-09-19"]
+var dateArray2 = [String]()
+for dateString in dateArray {
+    let dateFormatterGet = DateFormatter()
+    dateFormatterGet.dateFormat = "yyyy-MM-dd"
+    let dateFormatterPrint = DateFormatter()
+    dateFormatterPrint.dateFormat = "EEEE"
+
+    if let date1 = dateFormatterGet.date(from: dateString) {
+        let dateToDay = dateFormatterPrint.string(from: date1)
+        dateArray2.append("\(dateToDay)")
+    } else {
+        print("There was an error decoding the string")
+    }
+}
+
+print(dateArray2)
+*/
+
 */
 
