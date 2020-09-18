@@ -229,7 +229,7 @@ for dateString in dateArray {
         let dateToDay = dateFormatterPrint.string(from: date1)
         dateArray2.append("\(dateToDay)")
     } else {
-        print("There was an error decoding the string")
+        print("There was an err decoding the string")
     }
 }
 
