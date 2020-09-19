@@ -232,7 +232,11 @@ for dateString in dateArray {
         print("There was an err decoding the string")
     }
 }
+// a- z ascii
 
+var newArray: [String] = []
+
+let aToZ = (97...122).map({Character(UnicodeScalar($0))})
 print(dateArray2)
 */
 
