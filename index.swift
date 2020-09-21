@@ -238,6 +238,34 @@ var newArray: [String] = []
 
 let aToZ = (97...122).map({Character(UnicodeScalar($0))})
 print(dateArray2)
+
+/*
+CHECK IF A NUMBER IS SQUARED
+func ifSquared(_ n : Double) -> Bool {
+    let result = sqrt(n)
+    let isSquare = result.truncatingRemainder(dividingBy: 1)
+    return isSquare == 0.0
+}
+*/
+
+/*
+GET THE DIVISOR OF A NUMBER
+func divisor(_ num : Int) -> [Int]{
+    let squareRoot = sqrt(Double(num))
+    let convToInt = Int(squareRoot)
+    var divisorArray : [Int] = []
+    divisorArray.append(1)
+    for i in 2..<convToInt+1 {
+        if num % i == 0 {
+             divisorArray.append(i * i)
+            if i != (num/i) {
+              divisorArray.append((num/i) * (num/i))
+            }
+        }
+    }
+    divisorArray.append(num * num)
+    return divisorArray
+}
 */
 
 */
