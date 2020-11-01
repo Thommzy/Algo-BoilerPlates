@@ -35,6 +35,9 @@ func maskify(_ cc: String) -> String {
     return cc.count > 4 ? final : cc
 }
 
+
+
+
 maskify("567837337377373737")
 
 //#######5616
@@ -270,3 +273,13 @@ func divisor(_ num : Int) -> [Int]{
 
 */
 
+
+func getDigits(_ num: Int) -> [Int] {
+        var result = [Int]()
+        var remaining = abs(num)
+        while remaining > 0 {
+            result.insert(remaining % 10, at: 0)
+            remaining /= 10
+        }
+        return result
+}
